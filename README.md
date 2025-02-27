@@ -5,7 +5,7 @@ This repository contains code and resources related to emotion detection using L
 ## Project Overview
 
 This project introduces a novel method for improving multi-label emotion classification by leveraging the explanatory capabilities of Llama-3.  Existing methods often struggle with ambiguous emotional expressions and overlapping emotional cues.  Our approach addresses this challenge by using Llama-3 to generate explanatory content that clarifies ambiguous text.  This explanatory context is then incorporated into the input provided to RoBERTa, a robust pre-trained language model for emotion classification. By providing richer contextual information, we aim to improve RoBERTa's ability to accurately identify multiple emotions within a given text. We hypothesize that this will lead to significantly improved F1-scores, particularly for emotions that are often confused or under-represented, such as fear, joy, and sadness.  Our experiments demonstrate that this method surpasses the performance of text-only models, showcasing the effectiveness of incorporating explanatory context for resolving ambiguity and enhancing the accuracy of multi-label emotion detection.
-The core code for fine-tuning Llama-3 is derived from the excellent work in [Link to the unsloth repository]: https://github.com/unslothai/unsloth. This repository provides the foundational scripts and utilities which we adapt and extend for our specific needs in this SemEval task. 
+The core code for fine-tuning Llama-3 is derived from the excellent work in : https://github.com/unslothai/unsloth. This repository provides the foundational scripts and utilities which we adapt and extend for our specific needs in this SemEval task. 
 
 ## Code Structure
 
