@@ -11,5 +11,5 @@ The core code for fine-tuning Llama-3 is derived from the excellent work in [Lin
 
 This repository builds upon the codebase from https://github.com/unslothai/unsloth.  Key modifications and additions in this repository include:
 
-• **`data/`**: This directory contains the processed training, validation, and test data  specifically prepared for this SemEval task. 
-• **`scripts/`**: This directory contains custom scripts used for data preparation specific to this task, model training modifications, evaluation, and analysis.  
+• **`data/`**: This directory contains the dataset used for fine-tuning Llama-3 to generate explanations for sentences. This dataset of explanations was generated using GPT-4 and contains 150 sentences. Data for training, validation, and testing are available at: https://github.com/emotion-analysis-project/SemEval2025-Task11/tree/main/task-dataset
+• **`codes/`**: This directory contains Notebooks used for data preparation specific to this task, model training modifications, evaluation, and analysis.  
